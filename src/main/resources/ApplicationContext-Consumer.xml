@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+
+<!-- 
+ 
+  <bean id="helloWorldService" class="com.taobao.hsf.app.spring.util.HSFSpringConsumerBean" init-method="init">
+    <property name="interfaceName">
+      <value>com.taobao.hsf.sample.service.HelloWorldService</value>
+    </property>
+    <property name="version">
+      <value>1.0.0.yijiang</value>
+    </property>
+  </bean>
+  
+  <bean id="productLinkOpenService" class="com.taobao.hsf.app.spring.util.HSFSpringConsumerBean" init-method="init">
+    <property name="interfaceName">
+      <value>com.alibaba.buc.qxb.api.service.open.ProductLinkOpenService</value>
+    </property>
+    <property name="version">
+      <value>1.0.0-xh</value>
+    </property>
+  </bean>
+  
+    <bean id="productLinkService" class="com.taobao.hsf.app.spring.util.HSFSpringConsumerBean" init-method="init">
+    <property name="interfaceName">
+      <value>com.alibaba.buc.qxb.api.service.ProductLinkService</value>
+    </property>
+    <property name="version">
+      <value>1.0.0-xh</value>
+    </property>
+  </bean>  -->
+  
+  
+    <bean id="tspSearchArticleService" class="com.taobao.hsf.app.spring.util.HSFSpringConsumerBean" init-method="init">
+    <property name="interfaceName">
+      <value>com.taobao.tsp.search.client.service.TspSearchArticleService</value>
+    </property>
+    <property name="version">
+      <value>1.0.0.daily</value>
+    </property>
+  </bean>
+  
+  
+  
+</beans>
